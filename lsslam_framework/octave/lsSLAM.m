@@ -14,8 +14,8 @@ addpath('tools');
 %load ../data/simulation-pose-landmark.dat
 
 % real-world datasets
-%load ../data/intel.dat
-load ../data/dlr.dat
+load ../data/intel.dat
+%load ../data/dlr.dat
 
 % plot the initial state of the graph
 plot_graph(g, 0);
